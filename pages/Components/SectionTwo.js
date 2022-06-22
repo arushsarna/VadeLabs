@@ -32,7 +32,7 @@ export default function SectionTwo() {
         <Image src={mid} alt="mid picture" />
       </div>
       <div className="text-5xl mt-10 mb-2 font-semibold">
-        <span className="text-[#3554fc]">Cruise</span> through backend.
+        <span className="text-[#3554fc]"> Cruise</span> through backend.
       </div>
     </div>
   );
