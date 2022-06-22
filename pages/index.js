@@ -1,14 +1,13 @@
-
-import Body from './Components/Body'
-import Footer from './Components/footer'
-import NavBar from './Components/NavBar'
+import Body from "./Components/Body";
+import Footer from "./Components/Footer";
+import NavBar from "./Components/NavBar";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <NavBar />
       <Body />
       <Footer />
     </div>
-  )
+  );
 }
