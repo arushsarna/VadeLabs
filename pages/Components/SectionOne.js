@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import video from "../assets/video1.png";
 
-import Button from "./button";
+import Button from "./Button";
 import React from "react";
 
 export default function SectionOne() {

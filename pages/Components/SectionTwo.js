@@ -3,7 +3,7 @@ import Image from "next/image";
 import mid from "../assets/mid.png";
 
 import React from "react";
-
+import upbar from "../assets/upbar.png";
 export default function SectionTwo() {
   return (
     <div className="justify-center items-center   flex flex-col ">
@@ -23,7 +23,7 @@ export default function SectionTwo() {
         ease.
       </div>
       <div className=" mt-4">
-        <Image src="../assets/upbar.png" alt="upbar" width={1000} />
+        <Image src={upbar} width={1000} />
       </div>
       <div className="text-5xl mt-10 font-semibold">
         <span className="text-[#3554fc]">Skip</span> the hassle

@@ -22,12 +22,16 @@ export default function Body() {
       </div>
 
       <div className=" flex justify-end mr-20 mb-20 ">
-        <div className=" flex flex-col">
+        {/* <div className=" flex flex-col">
           <div className=" relative top-3 -left-1">
-            <Image src="../assets/backtotop.png" alt="backt to top" />
+            <Image
+              src="/assets/backtotop.png"
+              alt="back to top"
+              layout="fill"
+            />
           </div>
           Back on top
-        </div>
+        </div> */}
       </div>
     </div>
   );

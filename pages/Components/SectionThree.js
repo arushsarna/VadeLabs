@@ -3,7 +3,7 @@ import React from "react";
 import one from "../assets/1.png";
 import two from "../assets/2.png";
 import three from "../assets/3.png";
-
+import upbar from "../assets/upbar.png";
 export default function SectionThree() {
   return (
     <div>
@@ -93,7 +93,7 @@ export default function SectionThree() {
       </div>
 
       <div className=" mt-6 mb-5">
-        <Image src="../assets/upbar.png" alt="upbar" width={1000} />
+        <Image src={upbar} width={1000} />
       </div>
       <div className="  mt-8 text-center text-xl font-medium mb-4">
         We're building an ecosystem where{" "}
