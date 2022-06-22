@@ -5,7 +5,7 @@ import resend from "../assets/restart.png";
 
 import { useState } from "react";
 
-export default function Button() {
+export default function button() {
   const [showMe, setShowme] = useState("hidden");
 
   const [email, setEmail] = useState("block");
