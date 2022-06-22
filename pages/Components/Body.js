@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Button from "./Button.js";
+import Button from "./Button";
 import React from "react";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";
